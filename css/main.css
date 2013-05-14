@@ -66,6 +66,7 @@ blockquote {
   color: #ddd;
   text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.5);
   border-left: 10px solid #acacac;
+  background-image: -ms-linear-gradient(top, #888888 0%, #666666 100%);
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #888888), color-stop(100%, #666666));
   background-image: -webkit-linear-gradient(top, #888888, #666666);
   background-image: -moz-linear-gradient(top, #888888, #666666);
@@ -73,7 +74,7 @@ blockquote {
   background-image: linear-gradient(top, #888888, #666666);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#888888", endColorstr="#666666");
 }
-/* line 79, ../sass/main.scss */
+/* line 80, ../sass/main.scss */
 blockquote cite {
   display: block;
   text-align: right;
@@ -81,44 +82,44 @@ blockquote cite {
   font-size: 12px;
 }
 
-/* line 87, ../sass/main.scss */
+/* line 88, ../sass/main.scss */
 .hero-unit {
   padding: 20px;
 }
-/* line 89, ../sass/main.scss */
+/* line 90, ../sass/main.scss */
 .hero-unit h1 {
   text-align: center;
 }
 
-/* line 94, ../sass/main.scss */
+/* line 95, ../sass/main.scss */
 .paddy {
   border: 1px solid #aaaaaa;
   background: #cccccc;
   padding: 10px;
 }
 
-/* line 101, ../sass/main.scss */
+/* line 102, ../sass/main.scss */
 .intro img {
   float: right;
   margin-left: 10px;
   margin-bottom: 10px;
 }
 
-/* line 108, ../sass/main.scss */
+/* line 109, ../sass/main.scss */
 #stuff {
   margin-top: 40px;
 }
-/* line 110, ../sass/main.scss */
+/* line 111, ../sass/main.scss */
 #stuff > div {
   height: 330px;
   margin-bottom: 60px;
 }
-/* line 114, ../sass/main.scss */
+/* line 115, ../sass/main.scss */
 #stuff .details, #stuff details {
   display: none;
 }
 
-/* line 119, ../sass/main.scss */
+/* line 120, ../sass/main.scss */
 .transition-in {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
@@ -141,7 +142,7 @@ blockquote cite {
   transition-timing-function: linear;
 }
 
-/* line 127, ../sass/main.scss */
+/* line 128, ../sass/main.scss */
 .transition-done {
   -webkit-transform: scale(1, 1);
   -moz-transform: scale(1, 1);
@@ -162,7 +163,7 @@ blockquote cite {
   transition-timing-function: linear;
 }
 
-/* line 134, ../sass/main.scss */
+/* line 135, ../sass/main.scss */
 .short-transition {
   -webkit-transition-property: opacity, width, height, top, left, margin;
   -moz-transition-property: opacity, width, height, top, left, margin;
@@ -174,12 +175,12 @@ blockquote cite {
   transition-duration: 0.05s;
 }
 
-/* line 139, ../sass/main.scss */
+/* line 140, ../sass/main.scss */
 .old {
   z-index: 20 !important;
 }
 
-/* line 143, ../sass/main.scss */
+/* line 144, ../sass/main.scss */
 .expanded {
   background: #fff;
   background-repeat: no-repeat;
@@ -204,29 +205,29 @@ blockquote cite {
   -moz-box-shadow: rgba(0, 0, 0, 0.6) 0 0 30px;
   box-shadow: rgba(0, 0, 0, 0.6) 0 0 30px;
 }
-/* line 159, ../sass/main.scss */
+/* line 160, ../sass/main.scss */
 .expanded .expanded-content {
   position: absolute;
   z-index: 10;
 }
-/* line 163, ../sass/main.scss */
+/* line 164, ../sass/main.scss */
 .expanded .expanded-content > div {
   display: inline-block;
   overflow: auto;
   height: 500px;
   vertical-align: top;
 }
-/* line 171, ../sass/main.scss */
+/* line 172, ../sass/main.scss */
 .expanded .copy {
   width: 47%;
   background: #fff;
 }
-/* line 175, ../sass/main.scss */
+/* line 176, ../sass/main.scss */
 .expanded .copy .tags {
   margin: 0;
   padding: 0;
 }
-/* line 179, ../sass/main.scss */
+/* line 180, ../sass/main.scss */
 .expanded .copy .tags > li {
   list-style-type: none;
   display: inline-block;
@@ -236,7 +237,7 @@ blockquote cite {
   margin-right: 5px;
   margin-bottom: 4px;
 }
-/* line 191, ../sass/main.scss */
+/* line 192, ../sass/main.scss */
 .expanded .screens {
   width: 47%;
   margin-left: 25px;
@@ -245,7 +246,7 @@ blockquote cite {
   border-left: 1px dotted #aaa;
   background-color: white;
 }
-/* line 199, ../sass/main.scss */
+/* line 200, ../sass/main.scss */
 .expanded .screens > a > img {
   margin-bottom: 20px;
   border: 1px solid #aaaaaa;
@@ -253,13 +254,13 @@ blockquote cite {
   -moz-box-shadow: rgba(0, 0, 0, 0.8) 2px 2px 8px;
   box-shadow: rgba(0, 0, 0, 0.8) 2px 2px 8px;
 }
-/* line 204, ../sass/main.scss */
+/* line 205, ../sass/main.scss */
 .expanded .screens > a > img:hover {
   -webkit-box-shadow: rgba(0, 0, 0, 0.8) 1px 1px 8px;
   -moz-box-shadow: rgba(0, 0, 0, 0.8) 1px 1px 8px;
   box-shadow: rgba(0, 0, 0, 0.8) 1px 1px 8px;
 }
-/* line 210, ../sass/main.scss */
+/* line 211, ../sass/main.scss */
 .expanded > a {
   display: block;
   position: absolute;
@@ -282,15 +283,15 @@ blockquote cite {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
   opacity: 0.6;
 }
-/* line 229, ../sass/main.scss */
+/* line 230, ../sass/main.scss */
 .expanded #prev {
   left: -60px;
 }
-/* line 233, ../sass/main.scss */
+/* line 234, ../sass/main.scss */
 .expanded #next {
   right: -60px;
 }
-/* line 237, ../sass/main.scss */
+/* line 238, ../sass/main.scss */
 .expanded #close {
   top: -10px;
   right: -10px;
@@ -305,51 +306,51 @@ blockquote cite {
   height: 30px;
 }
 
-/* line 252, ../sass/main.scss */
+/* line 253, ../sass/main.scss */
 .old .screens {
   position: absolute;
 }
 
-/* line 256, ../sass/main.scss */
+/* line 257, ../sass/main.scss */
 .expanded-fixed {
   position: fixed;
   top: 10%;
 }
 
-/* line 261, ../sass/main.scss */
+/* line 262, ../sass/main.scss */
 .supersize {
   height: 540px;
   width: 74%;
   margin-left: 13%;
 }
 
-/* line 267, ../sass/main.scss */
+/* line 268, ../sass/main.scss */
 #phone, #email {
   display: inline-block;
   font-size: 24px;
 }
 
-/* line 272, ../sass/main.scss */
+/* line 273, ../sass/main.scss */
 #phone {
   margin-right: 50px;
 }
 
-/* line 276, ../sass/main.scss */
+/* line 277, ../sass/main.scss */
 .cen {
   text-align: center;
 }
 
-/* line 280, ../sass/main.scss */
+/* line 281, ../sass/main.scss */
 .bottom {
   margin-bottom: 100px;
 }
 
-/* line 285, ../sass/main.scss */
+/* line 286, ../sass/main.scss */
 .hide {
   display: none !important;
 }
 
-/* line 289, ../sass/main.scss */
+/* line 290, ../sass/main.scss */
 .transition-start {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
@@ -364,7 +365,7 @@ blockquote cite {
   transition-duration: 0.5s;
 }
 
-/* line 295, ../sass/main.scss */
+/* line 296, ../sass/main.scss */
 .page-flip-right-to-middle {
   -webkit-transform: rotateY(-90deg);
   -moz-transform: rotateY(-90deg);
@@ -386,7 +387,7 @@ blockquote cite {
   transition-timing-function: linear;
 }
 
-/* line 302, ../sass/main.scss */
+/* line 303, ../sass/main.scss */
 .page-flip-middle-to-left {
   -webkit-transform: rotateY(0deg);
   -moz-transform: rotateY(0deg);
@@ -408,7 +409,7 @@ blockquote cite {
   transition-timing-function: linear;
 }
 
-/* line 309, ../sass/main.scss */
+/* line 310, ../sass/main.scss */
 .page-flip-left-to-middle {
   -webkit-transform: rotateY(90deg);
   -moz-transform: rotateY(90deg);
@@ -430,7 +431,7 @@ blockquote cite {
   transition-timing-function: linear;
 }
 
-/* line 316, ../sass/main.scss */
+/* line 317, ../sass/main.scss */
 .page-flip-middle-to-right {
   left: 400px;
   -webkit-transform: rotateY(0deg);
@@ -453,7 +454,7 @@ blockquote cite {
   transition-timing-function: linear;
 }
 
-/* line 324, ../sass/main.scss */
+/* line 325, ../sass/main.scss */
 .skew-copy {
   z-index: 30 !important;
   height: 500px;
@@ -461,7 +462,7 @@ blockquote cite {
   position: absolute;
 }
 
-/* line 331, ../sass/main.scss */
+/* line 332, ../sass/main.scss */
 .skew-copy-transforms {
   -webkit-transform: rotateY(90deg);
   -moz-transform: rotateY(90deg);
@@ -475,7 +476,7 @@ blockquote cite {
   transform-origin: 100% 50%;
 }
 
-/* line 336, ../sass/main.scss */
+/* line 337, ../sass/main.scss */
 .skew-screens-transforms {
   -webkit-transform: rotateY(-90deg);
   -moz-transform: rotateY(-90deg);
@@ -490,7 +491,7 @@ blockquote cite {
   left: 400px;
 }
 
-/* line 342, ../sass/main.scss */
+/* line 343, ../sass/main.scss */
 .enlarge {
   -webkit-transform: scale(1.3, 1.3);
   -moz-transform: scale(1.3, 1.3);
@@ -511,7 +512,7 @@ blockquote cite {
   transition-timing-function: linear;
 }
 
-/* line 349, ../sass/main.scss */
+/* line 350, ../sass/main.scss */
 .fade-out {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
@@ -521,7 +522,7 @@ blockquote cite {
   transition-duration: 0.25s;
 }
 
-/* line 354, ../sass/main.scss */
+/* line 355, ../sass/main.scss */
 .fade-in {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
@@ -531,7 +532,7 @@ blockquote cite {
   transition-duration: 0.25s;
 }
 
-/* line 359, ../sass/main.scss */
+/* line 360, ../sass/main.scss */
 .fade-in-half {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=75);
   opacity: 0.75;
@@ -541,13 +542,14 @@ blockquote cite {
   transition-duration: 0.25s;
 }
 
-/* line 364, ../sass/main.scss */
+/* line 365, ../sass/main.scss */
 #cover {
   position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
+  background-image: -ms-radial-gradient(center, ellipse closest-corner, rgba(0, 0, 0, 0.25) 1%, rgba(0, 0, 0, 0.8) 100%);
   background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 100, color-stop(1%, rgba(0, 0, 0, 0.25)), color-stop(100%, rgba(0, 0, 0, 0.8)));
   background-image: -webkit-radial-gradient(50% 50%, ellipse closest-corner, rgba(0, 0, 0, 0.25) 1%, rgba(0, 0, 0, 0.8) 100%);
   background-image: -moz-radial-gradient(50% 50%, ellipse closest-corner, rgba(0, 0, 0, 0.25) 1%, rgba(0, 0, 0, 0.8) 100%);
@@ -555,14 +557,14 @@ blockquote cite {
   background-image: radial-gradient(50% 50%, ellipse closest-corner, rgba(0, 0, 0, 0.25) 1%, rgba(0, 0, 0, 0.8) 100%);
 }
 
-/* line 373, ../sass/main.scss */
+/* line 375, ../sass/main.scss */
 p.small {
   font-size: 12px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #777;
 }
 
-/* line 379, ../sass/main.scss */
+/* line 381, ../sass/main.scss */
 #clickhelper {
   position: absolute;
   bottom: 10px;
